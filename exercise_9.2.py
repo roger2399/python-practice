@@ -1,16 +1,16 @@
 ######################################################
-#   EXRECISE 9.2
+#                  EXRECISE 9.2
 #
 #
 #####################################################
+
 fin = open("words.txt")
-line = fin.readline()
 
-for line in fin:
-    #word = line.strip()
-        if line == 'e':
-            print (word)
-            #return true
-
+def has_no_e(word):
+    for char in word:
+        if char in 'e':
+           print (char)
+           # return false
+    return true
 
 
